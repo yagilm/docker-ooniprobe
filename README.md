@@ -10,7 +10,10 @@ https://github.com/TheTorProject/ooni-probe
 `docker build -t ooniprobe .`
 
 # Running the image
-`docker run -dt -p 8080:8080 --name ooniprobe ooniprobe`
+`docker run -d -p 8080:8080 --name ooniprobe ooniprobe`
+
+# See the logs of the container
+`docker logs ooniprobe`
 
 # Web interface for ooniprobe
 Open your favorite browser and go to http://localhost:8080
